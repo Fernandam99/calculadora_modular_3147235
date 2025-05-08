@@ -1,0 +1,13 @@
+def division(a, b):
+    if b == 0:
+        raise ZeroDivisionError("No se puede dividir entre cero.")
+    return a / b
+
+def potencia(a, b):
+    return a ** b
+
+def division_entera(a, b):
+    if b == 0:
+        raise ZeroDivisionError("No se puede dividir entre cero.")
+    return a // b
+    
